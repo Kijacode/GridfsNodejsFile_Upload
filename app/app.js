@@ -16,7 +16,7 @@ app.set('view engine', 'ejs');
 //password
 
 // Mongo URI //using MLabs
-const mongoURI = 'mongodb+srv://mumbo:WxnP2lqTySmXbmzA@mumbo-portal-mhjrf.mongodb.net/test?retryWrites=true&w=majority';
+const mongoURI = 'your mongo database path';
 
 // Create mongo connection
 const conn = mongoose.createConnection(mongoURI);
